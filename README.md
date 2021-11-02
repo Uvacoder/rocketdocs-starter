@@ -1,12 +1,14 @@
-<h1 align="center">
-  <!-- <br> -->
-  <!-- <img src="https://storage.googleapis.com/golden-wind/github/gatsby-themes-logo.svg" alt="Rocketseat and Gatsby" width="260"> -->
-  <!-- <br> -->
-  Rocket Docs
-  <br>
-</h1>
+<p align="center">
+  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/theme-docs.svg" alt="A illustration of file that is the @rocketseat/gatsby-theme-docs logo" width="100">
+</p>
 
-<h4 align="center">Easy to use Gatsby Theme to create documentation websites ⚡️🔥</h4>
+<h2 align="center">
+  Gatsby Starter: Rocket Docs
+</h2>
+
+<p align="center">
+  Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more 🔥 Using the theme: <a href="https://github.com/jpedroschmitz/rocketdocs/tree/main/%40rocketseat/gatsby-theme-docs">@rocketseat/gatsby-theme-docs</a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PRs-welcome-%238257E6.svg" alt="PRs welcome!" />
@@ -18,49 +20,42 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#themes">Themes</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#need-help">Need help?</a> •
-  <a href="#license">License</a>
-</p>
+## 🚀 Features
 
-## Themes
+- 📝 MDX for docs;
+- 🛣 Yaml-based sidebar navigation;
+- 📱 Responsive and mobile friendly;
+- 🖥 Code highlighting with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) support;
+- 🥇 SEO (Sitemap, schema.org data, Open Graph and Twitter tags).
+- 📈 Google Analytics support;
+- 📄 Custom docs schema;
+- 🖱 Table of Contents;
+- ⚡️ Offline Support & WebApp Manifest;
+- and much more 🔥
 
-🚀 [`gatsby-theme-docs-core`](./@rocketseat/gatsby-theme-docs-core): The core theme for docs websites that includes all the data structures you need.
+## ⚡️ Getting started
 
-🚀 [`gatsby-theme-docs`](./@rocketseat/gatsby-theme-docs): Out of the box Gatsby Theme for creating documentation websites easily and quickly.
+1. Create the website.
 
-## Contributing
+   ```sh
+   npx gatsby new rocketdocs https://github.com/jpedroschmitz/gatsby-starter-rocketdocs
+   ```
 
-Thanks for being interested in contributing! We’re so glad you want to help! Please take a little bit of your time and look at our [contributing guidelines](.github/CONTRIBUTING.md) and our
-[code of conduct](.github/CODE_OF_CONDUCT.md)! All type of contributions are welcome, such as bug fixes, issues or feature requests. Also, don't forget to check the roadmap.
+2. Start developing.
 
-## Need help?
+   ```sh
+   cd rocketdocs
+   gatsby develop
+   ```
 
-If you need help, feel free to open an issue with a description of the problem
-you're facing or, if you prefer, you can chat with us on our
-[forum](https://github.com/jpedroschmitz/rocketdocs/discussions).
+3. Are you ready for launch?
 
-## Sponsors
+   Your site is now running at `http://localhost:8000`
 
-<table>
-  <tr>
-    <td>
-      <a aria-label="Rocketseat" href="https://rocketseat.com.br?utm_source=rocketdocs&utm_medium=sponsorship&utm_campaign=rocketdocs_sponsorship">
-        <img alt="" src="./.github/rocketseat.svg">
-      </a>
-    </td>
-  </tr>
-</table>
+## 📄 Docs
 
-## Thanks
+Looking for docs? Check our live demo and documentation [website](https://rocketdocs.netlify.app).
 
-The following Open Source projects heavily inspire this project! Thanks, Apollo and LekoArts!
+---
 
-- [LekoArts Gatsby themes](https://github.com/LekoArts/gatsby-themes)
-- [Apollo Gatsby themes](https://github.com/apollographql/gatsby-theme-apollo)
-
-## License
-
-MIT © [João Pedro](https://github.com/jpedroschmitz)
+Made with 💜 by João Pedro
